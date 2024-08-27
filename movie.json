@@ -1,0 +1,16 @@
+[{
+    "movieTitle":"Spirited Away",
+    "screen":"Glod",
+    "price":"15$"
+},
+{
+    "movieTitle":"One Piece",
+    "screen":"Platinum",
+    "price":"10$"
+},
+{
+    "movieTitle":"Demon Slayer",
+    "screen":"Glod",
+    "price":"5$"
+}
+]

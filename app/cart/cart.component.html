@@ -1,0 +1,21 @@
+<!-- cart.component.html -->
+
+<div class="current-movies">
+  <div class="current-movie" *ngFor="let item of items; let i = index">
+    <div class="cm-img-box">
+      <img [src]="item.imageUrl" alt="{{ item.title }}">
+    </div>
+    <div class="current-movie-details">
+      <h3 class="movie-title">{{ item.title }}</h3>
+      <p class="screen-name">Screen: {{ item.screen }}</p>
+      <p class="price">Price: {{ item.price }}</p>
+      <div class="booking">
+        <button class="b" (click)="deleteItem(i)">Delete</button>
+        <button class="b" (click)="goToTicketPage(item.title, item.screen, item.price, item.imageUrl)">Buy Tickets</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="total-amount">
+  Total Amount: {{ totalAmount }}
+</div>

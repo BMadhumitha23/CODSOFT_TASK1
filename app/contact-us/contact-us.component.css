@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+.contact-us-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  text-align: center; /* Center align text */
+}
+
+.contact-us-container h2 {
+  font-size: 2rem;
+  color: #0ff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.contact-info {
+  text-align: center; /* Center align contact info */
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #ccc; /* Gray color */
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+.current-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.current-movie {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  transition: box-shadow 0.3s, transform 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.current-movie:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+}
+
+.cm-img-box {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.cm-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.movie-title {
+  font-size: 1.4rem;
+  margin: 15px;
+  color: #0ff;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.screen-name {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin: 0 15px 15px;
+}
+
+.booking {
+  padding: 0 15px 15px;
+  text-align: center;
+}
+
+.price {
+  font-size: 1.6rem;
+  color: #0ff;
+  margin: 10px 0;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+.b {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0ff;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 5px 0;
+}
+
+.b:hover {
+  background-color: #00e5e5;
+  transform: scale(1.05);
+}
+
+.b + .b {
+  background-color: #00e5e5;
+}
+
+.b + .b:hover {
+  background-color: #00b8b8;
+}

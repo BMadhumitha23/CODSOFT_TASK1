@@ -1,0 +1,84 @@
+.ticket-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+.ticket-details {
+  flex: 1;
+  padding: 20px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.detail-item {
+  margin-bottom: 15px;
+}
+
+.detail-item label {
+  font-size: 16px;
+  color: #00ffcc;
+}
+
+.detail-item input, 
+.detail-item select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.detail-item input[type="date"],
+.detail-item input[type="time"] {
+  background-color: #1a1a1a;
+}
+
+.detail-item input:focus, 
+.detail-item select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #00ffcc;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #00ffcc;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #009999;
+}
+
+.movie-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.movie-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00ffcc;
+  color: #1a1a1a;
+  text-align: center;
+  border-radius: 8px;
+}
